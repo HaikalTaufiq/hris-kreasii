@@ -146721,8 +146721,8 @@ n.toString
 n=A.d(n,!1,t.h).a?A.q(p)+" jam "+A.q(o)+" menit lagi":A.q(p)+" hours "+A.q(o)+" minutes left"
 return n}}catch(m){return"-"}},
 A(a){var s,r,q,p=this,o=null,n=t.s,m=A.d(a,!1,t.h).a?A.a(["Kepada","Judul","Nama Lokasi","Mulai","Batas Submit","Lokasi Upload","Status","Catatan","Lampiran","Waktu Upload","Keterlambatan","Sisa Waktu","Ketepatan"],n):A.a(["To","Title","Location Name","Start","Deadline","Upload Location","Status","Note","Attachment","Upload Time","Delay","Remaining Time","Punctuality"],n),l=J.bE(p.a.c,new A.bp_(p,a),t.J),k=A.T(l,l.$ti.h("aj.E")),j=B.d.p($.iJ,"tambah_tugas")
-l=j?A.a([5],t.t):o
-s=j?o:A.a([5],t.t)
+l=j?A.a([6],t.t):o
+s=j?o:A.a([6],t.t)
 n=j?A.a(["Selesai","Proses"],n):o
 r=j?new A.bp0(p,a):o
 q=j?new A.bp1(p,a):o
@@ -146846,7 +146846,7 @@ return s.aKZ(this.b,J.A(s.a.c,a))},
 $S:9}
 A.bp2.prototype={
 $3(a,b,c){var s=this.a,r=J.A(s.a.c,c)
-if(b===4&&r.f!=null&&r.r!=null)s.aHk(A.q(r.f)+","+A.q(r.r))},
+if(b===5&&r.f!=null&&r.r!=null)s.aHk(A.q(r.f)+","+A.q(r.r))},
 $S:107}
 A.QF.prototype={
 P(){return new A.Wt(new A.b1(B.G,$.ac()))}}
