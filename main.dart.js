@@ -136419,8 +136419,22 @@ return new A.JX(null)}}
 A.Cg.prototype={
 P(){return new A.aiq()}}
 A.aiq.prototype={
-A(a){var s=null,r="denger",q=$.c?B.P:B.Q,p=t.s
-return new A.Aa(A.cJ(s,q,new A.a0(B.lR,A.dw(A.a([new A.a0(B.YZ,new A.JW(s),s),new A.er(A.a(["karyawan"],p),new A.JU(s),s),new A.er(A.a(["karyawan","absensi"],p),A.an(s,12,s),s),new A.er(A.a(["absensi"],p),B.Xk,s),new A.er(A.a(["karyawan","gaji","departemen","jabatan","peran","potongan_gaji","log_aktifitas","pengingat","kantor","denger"],p),new A.a0(B.Yl,new A.a2u(A.a([new A.iI("Karyawan",B.ZF,new A.b62(a),"karyawan"),new A.iI("Gaji",B.ma,new A.b63(a),"gaji"),new A.iI("Departemen",B.ZN,new A.b64(a),"departemen"),new A.iI("Jabatan",B.ZQ,new A.b68(a),"jabatan"),new A.iI("Peran",B.ZM,new A.b69(a),"peran"),new A.iI("Potongan",B.xX,new A.b6a(a),"potongan_gaji"),new A.iI("Log Aktivitas",B.xS,new A.b6b(a),"log_aktifitas"),new A.iI("Reminder",B.xN,new A.b6c(a),"pengingat"),new A.iI("Info Kantor",B.xT,new A.b6d(a),"kantor"),new A.iI("Reset Data",B.qF,new A.b6e(a),r),new A.iI("Reset Device",B.xR,new A.b6f(a),r),new A.iI("Unlock",B.ZI,new A.b65(a),r),new A.iI("Pengaturan",B.xU,new A.b66(a),"gaji")],t.B5),s),s),s),A.an(s,12,s),B.QT,B.amy,A.an(s,12,s)],t.p),s,s,s,!1),s),s,s),new A.b67(),s)}}
+A(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f="denger",e=$.c?B.P:B.Q,d=t.s,c=A.a(["karyawan"],d),b=A.a(["karyawan","absensi"],d),a=A.an(g,12,g),a0=A.a(["absensi"],d)
+d=A.a(["karyawan","gaji","departemen","jabatan","peran","potongan_gaji","log_aktifitas","pengingat","kantor","denger"],d)
+s=t.h
+r=A.d(a1,!1,s).a?"Karyawan":"Employee"
+q=A.d(a1,!1,s).a?"Gaji":"Salary"
+p=A.d(a1,!1,s).a?"Departemen":"Department"
+o=A.d(a1,!1,s).a?"Jabatan":"Position"
+n=A.d(a1,!1,s).a?"Peran":"Role"
+m=A.d(a1,!1,s).a?"Potongan":"Deduction"
+l=A.d(a1,!1,s).a?"Log Aktivitas":"Activity Log"
+k=A.d(a1,!1,s).a?"Pengingat":"Reminder"
+j=A.d(a1,!1,s).a?"Info Kantor":"Office Info"
+i=A.d(a1,!1,s).a?"Reset Perangkat":"Reset Device"
+h=A.d(a1,!1,s).a?"Buka Akun":"Unlock"
+s=A.d(a1,!1,s).a?"Pengaturan":"Settings"
+return new A.Aa(A.cJ(g,e,new A.a0(B.lR,A.dw(A.a([new A.a0(B.YZ,new A.JW(g),g),new A.er(c,new A.JU(g),g),new A.er(b,a,g),new A.er(a0,B.Xk,g),new A.er(d,new A.a0(B.Yl,new A.a2u(A.a([new A.iI(r,B.ZF,new A.b62(a1),"karyawan"),new A.iI(q,B.ma,new A.b63(a1),"gaji"),new A.iI(p,B.ZN,new A.b64(a1),"departemen"),new A.iI(o,B.ZQ,new A.b68(a1),"jabatan"),new A.iI(n,B.ZM,new A.b69(a1),"peran"),new A.iI(m,B.xX,new A.b6a(a1),"potongan_gaji"),new A.iI(l,B.xS,new A.b6b(a1),"log_aktifitas"),new A.iI(k,B.xN,new A.b6c(a1),"pengingat"),new A.iI(j,B.xT,new A.b6d(a1),"kantor"),new A.iI("Reset Data",B.qF,new A.b6e(a1),f),new A.iI(i,B.xR,new A.b6f(a1),f),new A.iI(h,B.ZI,new A.b65(a1),f),new A.iI(s,B.xU,new A.b66(a1),"gaji")],t.B5),g),g),g),A.an(g,12,g),B.QT,B.amy,A.an(g,12,g)],t.p),g,g,g,!1),g),g,g),new A.b67(),g)}}
 A.b67.prototype={
 $0(){var s=0,r=A.o(t.y),q
 var $async$$0=A.k(function(a,b){if(a===1)return A.l(b,r)
